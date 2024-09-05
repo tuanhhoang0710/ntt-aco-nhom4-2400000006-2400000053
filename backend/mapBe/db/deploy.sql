@@ -1,0 +1,35 @@
+CREATE TABLE petrol_stations (
+                               id INT PRIMARY KEY,
+                               title VARCHAR(255),
+                               description TEXT,
+                               district INT,
+                               geo VARCHAR(255)
+);
+
+INSERT INTO petrol_stations (id, title, description, district, geo) VALUES
+                                                                      (1, 'Cửa hàng Xăng dầu Petrolimex Số 03', 'Đ. Lê Thánh Tôn, Phường Bến Thành, Quận 1, Hồ Chí Minh, Việt Nam', 1, '10.77163269592'),
+                                                                      (2, 'Cửa hàng Xăng dầu Petrolimex Số 01', 'Trần Cao Vân, Đa Kao, Quận 1, Hồ Chí Minh, Việt Nam', 1, '10.78550634345'),
+                                                                      (3, 'Saigon Petro', '50B Đ. Bùi Thị Xuân, Phường Phạm Ngũ Lão, Quận 1, Hồ Chí Minh, Việt Nam', 1, '10.77205591320'),
+                                                                      (4, 'Cửa hàng xăng dầu 93 Võ thị sáu', '93 Đ. Võ Thị Sáu, Phường 6, Quận 3, Hồ Chí Minh, Việt Nam', 1, '10.78934065276'),
+                                                                      (5, 'Cửa hàng xăng dầu số 18 Satra', '61 Đ. Trần Hưng Đạo, Phường Cầu Ông Lãnh, Quận 1, Hồ Chí Minh 700000, Việt Nam', 1, '10.77050653965'),
+                                                                      (6, 'Cửa hàng xăng dầu số 16 Satra', '1 Nguyễn Thị Định, An Phú, Quận 2, Hồ Chí Minh, Việt Nam', 2, '10.79113171697'),
+                                                                      (7, 'Cửa hàng Xăng dầu Petrolimex Số 02', '5B Đ. Trần Não, P. Bình An, Quận 2, Hồ Chí Minh, Việt Nam', 2, '10.79183285634'),
+                                                                      (8, 'Cửa hàng Xăng dầu Petrolimex An Bình', '8/10 Trạm Xăng, Đ. Trần Não, P. Bình An, Quận 2, Hồ Chí Minh 700000, Việt Nam', 2, '10.78805592549'),
+                                                                      (9, 'Cây xăng số 6', '9 Đ. Trần Não, P. Bình An, Quận 2, Hồ Chí Minh, Việt Nam', 2, '10.78854073553'),
+                                                                      (10, 'Hiếu Phương 3 Petro Station', 'Song Hành/53 Đ. Võ Nguyên Giáp, Thảo Điền, Quận 2, Hồ Chí Minh 70000, Việt Nam', 2, '10.80108450814'),
+                                                                      (11, 'Trạm xăng dầu Dương Anh Thư', '679 Đ. Nguyễn Duy Trinh, Bình Trưng Đông, Quận 2, Hồ Chí Minh, Việt Nam', 2, '10.78823364362'),
+                                                                      (12, 'Cây xăng COMECO', 'QQH7+GFX, Cát Lái, Quận 2, Hồ Chí Minh, Việt Nam', 2, '10.77889234884'),
+                                                                      (13, 'Trạm xăng dầu', 'QQ7V+FCC, Trục chính, Cát Lái, Quận 2, Hồ Chí Minh, Việt Nam', 2, '10.76364534476'),
+                                                                      (14, 'PVOIL TIMEXCO CHXD SỐ 9', '22/12 Nguyễn Duy Trinh, P. Bình Trưng Tây, Quận 2, Hồ Chí Minh, Việt Nam', 2, '10.78866089995'),
+                                                                      (15, 'Cửa hàng Xăng dầu Petrolimex Số 38', '188 Pasteur, Phường 6, Quận 3, Hồ Chí Minh, Việt Nam', 3, '10.78121427855'),
+                                                                      (16, 'Cửa hàng Xăng dầu Petrolimex Số 26', '410 Nguyễn Đình Chiểu, Phường 4, Quận 3, Hồ Chí Minh, Việt Nam', 4, '10.77340593507'),
+                                                                      (17, 'Cty CP Nhiên liệu Sài Gòn - Cửa hàng xăng dầu số 13', '118 Đ. Cách Mạng Tháng 8, Phường Võ Thị Sáu, Quận 3, Hồ Chí Minh, Việt Nam', 3, '10.77705867526'),
+                                                                      (18, 'Cây xăng Mipec', '93 Đ. Võ Thị Sáu, Phường 6, Quận 3, Hồ Chí Minh, Việt Nam', 3, '10.78688861407'),
+                                                                      (19, 'Cửa hàng Xăng dầu Petrolimex Số 35', '70 Trương Định, Phường Võ Thị Sáu, Quận 3, Hồ Chí Minh, Việt Nam', 3, '10.78256995764'),
+                                                                      (20, 'PV Oil-Cửa hàng bán lẻ xăng dầu số 55', '500 Nguyễn Đình Chiểu, Phường 4, Quận 3, Hồ Chí Minh, Việt Nam', 4, '10.77199109567'),
+                                                                      (21, 'Cửa hàng Xăng dầu Petrolimex Số 06', '123 Đ. Võ Thị Sáu, Phường 6, Quận 3, Hồ Chí Minh, Việt Nam', 3, '10.78703859862'),
+                                                                      (22, 'Cửa hàng Xăng dầu Petrolimex Số 26', '410 Nguyễn Đình Chiểu, Phường 4, Quận 4, Hồ Chí Minh, Việt Nam', 4, '10.77573190823'),
+                                                                      (23, 'Cửa hàng Xăng dầu Petrolimex Số 39', '326 Đ. Bến Vân Đồn, Phường 4, Quận 4, Hồ Chí Minh, Việt Nam', 4, '10.75946664950'),
+                                                                      (24, 'Cửa hàng Xăng dầu Petrolimex Số 39', '326 Đ. Bến Vân Đồn, Phường 4, Quận 4, Hồ Chí Minh, Việt Nam', 4, '10.75903751573'),
+                                                                      (25, 'Cửa hàng xăng dầu Comeco', '82 Đ. Tôn Thất Thuyết, Phường 4, Quận 4, Hồ Chí Minh, Việt Nam', 4, '10.75341719338'),
+                                                                      (26, 'Cửa hàng Chuyên doanh Petrolimex Sài Gòn 04', '152 Nguyễn Khoái, Phường 2, Quận 4, Hồ Chí Minh, Việt Nam', 4, '10.75895257532');
